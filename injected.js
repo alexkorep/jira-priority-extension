@@ -3,7 +3,7 @@ const MEDIUM_LINK_URL =
 
 const replaceImages = () => {
   const images = document.getElementsByTagName("img");
-  const newUrl = chrome.runtime.getURL("bluedot.png");
+  const newUrl = chrome.runtime.getURL("medium.png");
   for (var i = 0; i < images.length; i++) {
     if (images[i].src == MEDIUM_LINK_URL) {
       images[i].src = newUrl;

@@ -16,7 +16,7 @@
     "64": "icon.png"
   },
   "web_accessible_resources": [
-    "bluedot.png"
+    "medium.png"
   ],
   "manifest_version": 2
 }
